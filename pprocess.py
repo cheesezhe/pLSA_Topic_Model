@@ -47,7 +47,7 @@ class Pprocess:
     return self.id2w[wid]
 
 if __name__ == '__main__':
-  fname = './data.txt'
+  fname = './dst.txt'
   fsw = './stopwords.txt'
 
   pp = Pprocess(fname, fsw)

@@ -14,8 +14,6 @@ def main():
   logging.getLogger('').addHandler(console)
 
   # Some basic configuration ---------------
-  # fname = './data.txt'
-  # fsw = './stopwords.txt'
   fname = './dst.txt'
   fsw = './cnStopwords.txt'
   eps = 20.0
